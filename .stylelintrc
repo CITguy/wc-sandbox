@@ -1,4 +1,7 @@
 {
+  "plugins": [
+    "stylelint-scss"
+  ],
   "rules": {
     "at-rule-empty-line-before": ["always", {
       "except": [
@@ -146,6 +149,16 @@
       ],
       "ignore": [
         "after-comment"
+      ]
+    }],
+    "scss/comment-no-loud": true,
+    "scss/double-slash-comment-empty-line-before": ["always", {
+      "except": [
+        "first-nested"
+      ],
+      "ignore": [
+        "between-comments",
+        "stylelint-commands"
       ]
     }],
     "selector-attribute-brackets-space-inside": "never",

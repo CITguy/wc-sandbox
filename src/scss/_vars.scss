@@ -15,48 +15,57 @@ $gray-900: #424242;
 $gray-950: #333333;
 $gray-975: #212121;
 $gray-1000: #000000;
+
 // Cyans
 $cyan-50: #e4f9f9;
 $cyan-100: #b6e3eb;
 $cyan-500: #16b9d4;
 $cyan-700: #0e94a6;
 $cyan-900: #0c7c84;
+
 // Blues
 $blue-50: #e1eef9;
 $blue-100: #bbdefb;
 $blue-500: #3391ff;
 $blue-700: #0d74d1;
 $blue-900: #0d47a1;
+
 // Magentas
 $magenta-50: #fce0eb;
 $magenta-100: #f8bbd0;
 $magenta-500: #ec407a;
 $magenta-700: #c2185b;
 $magenta-900: #a5134e;
+
 // Purples
 $purple-50: #adb7dd;
 $purple-100: #6676bc;
 $purple-500: #3b44a9;
 $purple-700: #2e3187;
 $purple-900: #232968;
+
 // Oranges
 $orange-50: #f8e1bb;
 $orange-100: #fdd179;
 $orange-500: #f57c00;
 $orange-700: #dd6105;
 $orange-900: #c15206;
+
 // Greens
 $green-100: #c8e6c9;
 $green-500: #4caf51;
 $green-900: #2e7d32;
+
 // Yellows
 $yellow-100: #fff9c4;
 $yellow-500: #ffeb3b;
 $yellow-900: #fbc02d;
+
 // Reds
 $red-100: #ffcdd2;
 $red-500: #f44336;
 $red-900: #d32f2f;
+
 // Shadow
 $shadow-color: rgba($gray-1000, 0.16);
 $backdrop-color: rgba($gray-1000, 0.6);
@@ -64,6 +73,7 @@ $backdrop-color: rgba($gray-1000, 0.6);
 // ===== SHADOWS =====
 // Tooltips, Menus, Popovers, etc.
 $layering-shadow: 0 3px 3px 0 $shadow-color;
+
 // Modals, Toasts, etc.
 //$focusing-shadow: TBD
 
